@@ -1,3 +1,16 @@
+# [2.12.0](https://github.com/ghoshRitesh12/aniwatch-api/compare/v2.11.3...v2.12.0) (2025-04-14)
+
+
+### Features
+
+* **getNextEpisodeSchedule:** add `/anime/:animeId/next-episode-schedule` endpoint ([f5cd341](https://github.com/ghoshRitesh12/aniwatch-api/commit/f5cd3415d8134da1ab1e3b3f8f9be6b5212aa353))
+
+
+
+## [2.11.3](https://github.com/ghoshRitesh12/aniwatch-api/compare/v2.11.2...v2.11.3) (2025-03-20)
+
+
+
 ## [2.11.2](https://github.com/ghoshRitesh12/aniwatch-api/compare/v2.11.1...v2.11.2) (2025-03-15)
 
 
@@ -17,26 +30,6 @@
 ### Features
 
 * **`/qtip`:** add new `/qtip` endpoint ([f0acd89](https://github.com/ghoshRitesh12/aniwatch-api/commit/f0acd89d87e5e62c12e20a95225ca9261fefe411))
-
-
-
-# [2.10.0](https://github.com/ghoshRitesh12/aniwatch-api/compare/v2.9.0...v2.10.0) (2024-12-24)
-
-
-### Features
-
-* **cache:** add cacheConfigSetter & cacheControlMiddleware by [#90](https://github.com/ghoshRitesh12/aniwatch-api/issues/90) ([5f1f216](https://github.com/ghoshRitesh12/aniwatch-api/commit/5f1f2167dfe2b99f53743e59c8354a6f8e886566))
-* **errorHandling:** add error handlers config file ([da19fb7](https://github.com/ghoshRitesh12/aniwatch-api/commit/da19fb7e869c7a9f4007b8bf1439c08e5fe684f7))
-* use refactored error handlers and cache middlewares ([da6699b](https://github.com/ghoshRitesh12/aniwatch-api/commit/da6699ba224451e0d1a1d2cac569d314ea9c29b3))
-
-
-
-# [2.9.0](https://github.com/ghoshRitesh12/aniwatch-api/compare/v2.8.0...v2.9.0) (2024-12-23)
-
-
-### Features
-
-* **cache:** add Cache-Control middleware and update .env.example ([f1f5db8](https://github.com/ghoshRitesh12/aniwatch-api/commit/f1f5db84f98818af2c047ea375832e5ded5f021a))
 
 
 
