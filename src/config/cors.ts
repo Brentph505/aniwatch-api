@@ -5,7 +5,7 @@ config();
 
 const allowedOrigins = process.env.ANIWATCH_API_CORS_ALLOWED_ORIGINS
   ? process.env.ANIWATCH_API_CORS_ALLOWED_ORIGINS.split(",")
-  : ["http://localhost:5173", "https://ani-fire.netlify.app"];
+  : ["http://localhost:5173", "https://ani-fire.netlify.app", "https://ani-fire-teal.vercel.app"];
 
 const corsConfig = cors({
   allowMethods: ["GET"],
