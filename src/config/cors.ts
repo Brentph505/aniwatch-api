@@ -1,7 +1,7 @@
 import { cors } from "hono/cors";
 import { env } from "./env.js";
 
-const DEFAULT_ALLOWED_ORIGINS = ["http://localhost:8080", "https://ani-fire-old.vercel.app", "https://ani-fire-personal.vercel.app", "*"];
+const DEFAULT_ALLOWED_ORIGINS = ["http://localhost:4000", "https://ani-fire-old.vercel.app", "*"];
 
 const allowedOrigins = env.ANIWATCH_API_CORS_ALLOWED_ORIGINS
     ? env.ANIWATCH_API_CORS_ALLOWED_ORIGINS.split(",")
